@@ -89,6 +89,14 @@ html {
   border-radius: 5px;
 }
 
+.login-box input[type="text"]:hover,
+.login-box input[type="password"]:hover {
+  border-color: #2e2a72;
+  box-shadow: 0 0 5px rgba(46, 42, 114, 0.3);
+  transition: 0.3s ease;
+}
+
+
 .show-password {
   display: flex;
   align-items: center;
@@ -153,6 +161,23 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+
+footer{
+    z-index: 12;
+    font-size: 14px;
+    color: #ffffff;
+    background-color: #1f1a5d;
+    padding: 2px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items:center;
 }
 
 @media (max-width: 768px) {
