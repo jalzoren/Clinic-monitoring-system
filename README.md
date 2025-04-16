@@ -24,3 +24,13 @@ The Clinic Monitoring System is a web-based application designed to manage and m
 - Asong
 - Castillon
 - Flavier
+
+## Screenshots
+
+**Login Page**  
+![Login Screenshot](documentation/login.png)
+
+**Dashboard**  
+![Dashboard Screenshot(To be Edited/Fixed](documentation/dashboard.png)
+
+---
