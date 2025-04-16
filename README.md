@@ -28,9 +28,9 @@ The Clinic Monitoring System is a web-based application designed to manage and m
 ## Screenshots
 
 **Login Page**  
-![Login Screenshot](https://imgur.com/SGJPY74)
+![Login Screenshot](https://i.imgur.com/SGJPY74.png)
 
 **Dashboard**  
-![Dashboard Screenshot(To be Edited/Fixed](https://imgur.com/VhrkwdJ)
+![Dashboard Screenshot(To be Edited/Fixed](https://imgur.com/VhrkwdJ.png)
 
 ---
