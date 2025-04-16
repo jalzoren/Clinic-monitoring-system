@@ -46,7 +46,7 @@ body {
 
 .sidebar.active .logo-content .logo {
   opacity: 1;
-  margin-right: 2px;
+  margin-right: 1px;
   pointer-events: auto;
 }
 
