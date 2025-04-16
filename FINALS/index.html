@@ -1,37 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LOG IN</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>PLP Clinic - Admin Login</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <section class="container">
-        <div class="left">
-        hi
-
-
+  <section class="container">
+    <div class="left">
+        <div class="branding">
+          <img src="/pictures/logo.clear.png" alt="PLP Logo" class="logo" />
+          <h1 class="title">PLP Clinic</h1>
+          <h2 class="subtitle">Health Services Department</h2>
+          <div class="time-text" id="time-text"></div>
         </div>
+      </div>
+
+    <div class="right">
+      <div class="login-box">
+        <h1>Admin</h1>
+        <form>
+          <label for="username">Username:</label>
+          <input type="text" id="username" placeholder="Enter Username:" />
+
+          <label for="password">Password:</label>
+          <input type="password" id="password" placeholder="Enter Password" />
+
+          <label class="checkbox-container">Show Password
+            <input type="checkbox" id="show-password">
+            <span class="checkmark"></span>
+          </label>
+
+          <button type="submit">LOG IN</button>
+        </form>
+      </div>
+    </div>
+
+    <div class="design">
+        <img src="/pictures/design.png" class="design1">
+        <img src="/pictures/design.png" class="design2">
+    </div>
+  </section>
+
+  
+    <script src="time.js"></script>
 
 
-        <div class="right">
-        <div class="contents">
-        <h1>Admin</h1>  
-        <div class="form">
-            <label for="Username">Username:</label>
-            <input type="text"  placeholder="Enter your Username:">
-            <label for="Password">Password:</label>
-            <input type="text"  placeholder="Enter your Password:">
-        </div>
-        </div>
-
-        </div>
-
-
-
-
-
-    </section>
 </body>
 </html>
